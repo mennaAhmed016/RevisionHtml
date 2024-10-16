@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReviewHtml</title>
+    <link rel="stylesheet" href="CssToRevHtml.css">
+</head>
+
+<body>
+    <div class="structureH">
+        <div class="logohome">logo</div>
+        <nav class="navhome">
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+        </nav>
+        <section class="conthome">
+            <h1 style="text-align: center;"><u>Form</u></h1>
+            <form>
+                <div>
+                    <label for="username">User name</label>
+                    <input id="username" type="text" placeholder="write your user name" required>
+                </div>
+
+                <div>
+                    <label for="password">password</label>
+                    <input id="password" type="password" placeholder="write your password" minlength="8" maxlength="15"
+                        required>
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="write your email">
+                </div>
+
+                <div>
+                    <label for="sub">subject</label>
+                    <input id="sub" type="text" placeholder="write your user subject">
+                </div>
+
+                <div>
+                    <label>color</label>
+                    <input type="color">
+                </div>
+                <div>
+                    <label>range</label>
+                    <input type="range" min="0" max="100" step="10" value="50">
+                </div>
+                <div>
+                    <label>number</label>
+                    <input type="number" min="0" max="100" step="10" value="10">
+                </div>
+
+                <div>
+                    <textarea cols="20" rows="10" placeholder="text"></textarea>
+                </div>
+
+                <div>
+                    <label>download</label>
+                    <input type="file">
+                </div>
+
+                <div>
+                    <label>Date</label>
+                    <input type="date">
+                </div>
+                <div>
+                    <label>month</label>
+                    <input type="month">
+                </div>
+                <div>
+                    <label>time</label>
+                    <input type="time">
+                </div>
+
+                <div>
+                    <input type="radio" id="c++" checked name="l">
+                    <label for="c++">c++</label>
+                </div>
+                <div>
+                    <input type="radio" id="python" name="l">
+                    <label for="python">python</label>
+                </div>
+                <div>
+                    <input type="radio" id="java" name="l">
+                    <label for="java">java</label>
+                </div>
+
+                <br>
+                <br>
+
+                <div>
+                    <input type="checkbox" id="c++" checked name="l">
+                    <label for="c++">c++</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="python" name="l">
+                    <label for="python">python</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="java" name="l">
+                    <label for="java">java</label>
+                </div>
+
+
+                <div>
+                    <label>choose</label>
+                    <select multiple>
+                        <optgroup label="languages">
+                            <option>c</option>
+                            <option selected>c++</option>
+                            <option>python</option>
+                        </optgroup>
+                        <optgroup label="subjects">
+                            <option>oop</option>
+                            <option>DC</option>
+                            <option>DS</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+
+                <div>
+                    <input list="languages">
+                    <datalist id="languages">
+                        <option value="c++">
+                        <option value="java">
+                        <option value="python">
+                    </datalist>
+                </div>
+
+
+                <div>
+                    <input type="submit">
+                    <br>
+                    <br>
+                    <input type="reset">
+                </div>
+            </form>
+
+            <h1 style="text-align: center;"><u>table</u></h1>
+            <table  border="3" cellpadding="3">
+                <caption>
+                    <h3><mark>Subjects</mark></h3>
+                </caption>
+                <thead>
+                    <tr>
+                        <th>subject</th>
+                        <th>programing</th>
+                        <th>project</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>oop</td>
+                        <td>java</td>
+                        <td>-----</td>
+                    </tr>
+                    <tr>
+                        <td>Ds</td>
+                        <td>c</td>
+                        <td>-----</td>
+                    </tr>
+                    <tr>
+                        <td>LD</td>
+                        <td>-----</td>
+                        <td>-----</td>
+                    </tr>
+                    <tr>
+                        <td>PL2</td>
+                        <td>c</td>
+                        <td>-----</td>
+                    </tr>
+                    <tr>
+                        <td>SA</td>
+                        <td>html+css</td>
+                        <td>----</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>5</td>
+                        <td colspan="2">4</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <h1 style="text-align: center;"><u>list</u></h1>
+            <ul>
+                <li>
+                    numbers
+                    <ul>
+                        <li>one </li>
+                        <li>two</li>
+                        <li>three</li>
+                    </ul>
+                </li>
+                <li>
+                    letters
+                    <ul>
+                        <li>A</li>
+                        <li>B</li>
+                        <li>C</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <br>
+            <h1 style="text-align: center"><u>link</u></h1>
+            <br>
+            <a href="https://google.com/" title="go to google">Google</a>
+            <br>
+            <br>
+            <br>
+
+            <figure>
+                <img src="mm.jpg" width="350">
+                <figcaption>img</figcaption>
+            </figure>
+
+            <video controls width="500" height="500" style="padding: 30px;">
+                <!--autoplay loop muted poster -->
+                <source src="WhatsApp Video 2024-02-23 at 19.28.13_52f7c0ea.mp4" type="video/mp4">
+            </video> 
+            <br>
+            <br>
+            <audio controls>
+                  <!--autoplay loop muted -->
+                <source src="A.mp3" type="audio/mp3">
+            </audio>
+            <br>
+            <br>
+        </section>
+        <aside class="sidhome">sidebar</aside>
+        <footer class="foothome">footer</footer>
+    </div>
+</body>
+
+</html>

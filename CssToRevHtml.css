@@ -1,0 +1,50 @@
+
+.structureH{
+    height: 100vh;
+   background-color: #eee;
+   display: grid;
+   grid-template-columns: repeat(6,1fr);
+   grid-template-rows: 15% auto 25%;
+   grid-template-areas: "logohome navhome navhome  navhome   navhome  navhome "
+                        "conthome conthome conthome conthome conthome sidhome"
+                        "foothome foothome foothome foothome foothome foothome";
+    /* text-align: center; */
+}
+.structureH .navhome ul{
+    list-style: none;
+}
+.structureH .navhome ul li{
+    display: inline-block;
+}
+.structureH .navhome ul{
+    list-style: none;
+}
+.structureH .logohome{
+    grid-area: logohome;
+    background-color: burlywood;
+}
+
+.structureH .navhome{
+    grid-area: navhome;
+    background-color: bisque;
+}
+
+.structureH .conthome{
+    grid-area: conthome;
+    background-color: #eee;
+}
+
+.structureH .sidhome{
+    grid-area: sidhome;
+    background-color: maroon;
+}
+
+.structureH .foothome{
+    grid-area: foothome;
+    background-color: lavenderblush;
+}
+
+.structureH .conthome form div{
+    padding: 10px;
+    margin: 10px;
+}
